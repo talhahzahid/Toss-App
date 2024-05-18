@@ -14,7 +14,7 @@ function toss(btn) {
 
 
 
-  if (ab === 1) {
+  if (btn === "heads" && ab === 1 || btn === "tails" && ab === 0) {
     console.log('win', btn);
     h1.innerHTML = `you win the toss`
   } else {
